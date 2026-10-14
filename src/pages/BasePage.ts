@@ -25,6 +25,6 @@ export class BasePage
 
     async waitUtil():Promise<void>
     {
-        await this.page.waitForTimeout(1500);
+        await this.page.waitForTimeout(2000);
     }
 }
