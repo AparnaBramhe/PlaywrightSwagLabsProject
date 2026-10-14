@@ -36,12 +36,12 @@ export class InventoryPage extends BasePage
         let allProducts:Locator[] = await this.productList.all();
         for(let product of allProducts)
         {
-            const productName = product.locator('.inventory_item').filter({ hasText: pname });
+            let productName = product.locator('.inventory_item').filter({ hasText: pname });
         
             if((await product.innerText()).includes(pname))
             {
                 //select
-                const addToCartButton = product.getByRole("button",{name:"Add to cart"});
+                let addToCartButton = product.getByRole("button",{name:"Add to cart"});
                 await product.click();
                 break;
             }
