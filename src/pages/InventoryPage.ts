@@ -16,6 +16,8 @@ export class InventoryPage extends BasePage
         super(page);
         this.productList = page.locator("div.inventory_list div.inventory_item_name");
         this.footerLinks = page.locator("footer a");
+        //this.addToCartButton = product.getByRole("button",{name:"Add to cart"});
+        this.addToCartButton=page.locator("//button[text()='Add to cart']");
         this.cartOption = page.locator("a.shopping_cart_link");
     }
     
@@ -36,17 +38,15 @@ export class InventoryPage extends BasePage
         let allProducts:Locator[] = await this.productList.all();
         for(let product of allProducts)
         {
-            let productName = product.locator('.inventory_item').filter({ hasText: pname });
-        
             if((await product.innerText()).includes(pname))
             {
                 //select
-                let addToCartButton = product.getByRole("button",{name:"Add to cart"});
                 await product.click();
                 break;
             }
         
         //add the product into cart
+        await this.waitUtil();
         await this.addToCartButton.click();
         console.log(pname+" added into cart!");
         }
