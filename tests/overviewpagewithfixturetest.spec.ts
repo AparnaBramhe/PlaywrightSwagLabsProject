@@ -5,6 +5,7 @@ test.beforeEach(async({loginPage,inventoryPage,cartPage})=>{
     // let data=readExcelFileSheetWise("LoginPage",0);
     // await loginPage.doLogin(data.username,data.password);
     await loginPage.doLogin(process.env.APPUSERNAME!,process.env.APPPASSWORD!);
+    await loginPage.waitUtil();
     let ivpagedata=readExcelFileSheetWise("InventoryPage",0);
     await inventoryPage.addProductIntoCart(ivpagedata.product1);
     await cartPage.gotoCartPage();

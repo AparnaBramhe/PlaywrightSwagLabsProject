@@ -6,6 +6,7 @@ test.beforeEach(async({loginPage})=>{
     //     await loginPage.doLogin(data.username, data.password);
     //await loginPage.doLogin("standard_user","secret_sauce");
     await loginPage.doLogin(process.env.APPUSERNAME!, process.env.APPPASSWORD!);
+    await loginPage.waitUtil();
 })
 
 test("Test for product count match",async({inventoryPage})=>{
