@@ -44,12 +44,11 @@ export class InventoryPage extends BasePage
                 await product.click();
                 break;
             }
-        
+        }
         //add the product into cart
         await this.waitUtil();
         await this.addToCartButton.click();
         console.log(pname+" added into cart!");
-        }
     }
 
     async getAllFootersCount():Promise<number>
