@@ -45,7 +45,7 @@ export default defineConfig({
     trace: 'on',
     screenshot:'on',
     video:'on',
-    headless: process.env.CI ? true : false
+    headless: process.env.CI ? false : true
 
   },
 
