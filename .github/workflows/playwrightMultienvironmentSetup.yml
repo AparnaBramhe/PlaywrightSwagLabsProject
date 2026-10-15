@@ -3,6 +3,7 @@ name: Playwright Third WorkFlow with Manual trigger & CacheTests
 on:
   schedule:
     - cron: '30 14 * * 1-5' # Mon-Fri 8:00 PM IST
+    
   #push:
     #branches: [master]
   #pull_request:
