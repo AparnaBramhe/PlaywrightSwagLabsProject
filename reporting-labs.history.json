@@ -682,5 +682,1804 @@
     17
    ]
   }
+ },
+ {
+  "time": 1792143580491,
+  "duration": 37468.712999999996,
+  "passed": 21,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 21,
+  "label": "local",
+  "tests": {
+   "ui::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    8241
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    8206
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    7908
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    11066
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    6753
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    8232
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    6539
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    6012
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    4375
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    8868
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    5917
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    4462
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    2041
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    2289
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    1785
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    1678
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    3763
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    2509
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    2487
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    2575
+   ],
+   "ui::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    7307
+   ]
+  }
+ },
+ {
+  "time": 1792390849217,
+  "duration": 48.95100000000002,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "label": "local",
+  "tests": {}
+ },
+ {
+  "time": 1792390973991,
+  "duration": 11385.280999999999,
+  "passed": 31,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 31,
+  "label": "local",
+  "tests": {
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    883
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    869
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    692
+   ],
+   "api::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    692
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    226
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    219
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    216
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    215
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    220
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    215
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    226
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    224
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    412
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    817
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    838
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1032
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    836
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    841
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1103
+   ],
+   "api::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    271
+   ],
+   "api::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    3949
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    3699
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    3863
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    837
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    2796
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    2762
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    452
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    430
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    86
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1083
+   ],
+   "api::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    42
+   ]
+  }
+ },
+ {
+  "time": 1792391068634,
+  "duration": 10579.365,
+  "passed": 31,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 31,
+  "label": "local",
+  "tests": {
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    866
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    911
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    715
+   ],
+   "api::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    693
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    216
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    233
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    211
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    214
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    218
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    212
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    219
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    211
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    417
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    828
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    887
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1031
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    855
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    886
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1104
+   ],
+   "api::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    245
+   ],
+   "api::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    3845
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    4545
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    3286
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    992
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    2666
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    2576
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    390
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    437
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    515
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1019
+   ],
+   "api::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    14
+   ]
+  }
+ },
+ {
+  "time": 1792398144731,
+  "duration": 79602.288,
+  "passed": 104,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 104,
+  "label": "local",
+  "tests": {
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    815
+   ],
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    925
+   ],
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    815
+   ],
+   "chromium::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    939
+   ],
+   "chromium::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    246
+   ],
+   "chromium::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    256
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    243
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    254
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    251
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    233
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    230
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    234
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    483
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    903
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    895
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1040
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    894
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    902
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1159
+   ],
+   "chromium::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    235
+   ],
+   "chromium::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    4958
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    4844
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    5426
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    1040
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    3031
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    3269
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    502
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    371
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    440
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1130
+   ],
+   "chromium::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    25
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    7266
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    6210
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    7222
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    9613
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    6038
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    6506
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    8096
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    4476
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    5444
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    6393
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    4340
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    4568
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    963
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    1009
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    2433
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    1727
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    1735
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    2770
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    1848
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    2594
+   ],
+   "chromium::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    8144
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    8110
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    6281
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    8190
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    9713
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    6468
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    6398
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    6552
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    4548
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    4354
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    6514
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    4758
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    5792
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    1231
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    962
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    2608
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    2782
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    1486
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    3192
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    2590
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    2554
+   ],
+   "ui::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    7616
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    950
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    893
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    722
+   ],
+   "api::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    270
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    223
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    237
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    333
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    247
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    242
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    302
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    296
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    275
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    476
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    893
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    959
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1201
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    939
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    979
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1307
+   ],
+   "api::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    396
+   ],
+   "api::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    3925
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    5411
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    5135
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    826
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    3858
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    3139
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    437
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    390
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    434
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1017
+   ],
+   "api::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    22
+   ]
+  }
+ },
+ {
+  "time": 1792399304551,
+  "duration": 86053.255,
+  "passed": 104,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 104,
+  "label": "local",
+  "tests": {
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    911
+   ],
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    850
+   ],
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    885
+   ],
+   "chromium::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    927
+   ],
+   "chromium::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    226
+   ],
+   "chromium::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    234
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    231
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    218
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    235
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    254
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    225
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    271
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    447
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    990
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    957
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1326
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    935
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    947
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1097
+   ],
+   "chromium::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    262
+   ],
+   "chromium::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    3993
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    4963
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    5618
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    964
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    2748
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    2929
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    440
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    383
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    474
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1055
+   ],
+   "chromium::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    22
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    7588
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    7482
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    6444
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    9340
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    6467
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    9023
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    6312
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    4436
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    6726
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    7489
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    3906
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    4421
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    2089
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    2208
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    1682
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    2848
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    2917
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    1874
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    3898
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    2503
+   ],
+   "chromium::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    7653
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    9305
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    7299
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    8131
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    9833
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    8490
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    6868
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    6532
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    5325
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    4294
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    7863
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    4386
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    6173
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    2183
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    2039
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    2664
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    2417
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    2512
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    3119
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    2625
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    1874
+   ],
+   "ui::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    7699
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    1027
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    1009
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    697
+   ],
+   "api::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    261
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    216
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    216
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    250
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    235
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    222
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    228
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    239
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    262
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    445
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    911
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    870
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1119
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    917
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    887
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1153
+   ],
+   "api::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    777
+   ],
+   "api::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    5977
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    4796
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    4534
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    1215
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    3043
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    2941
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    426
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    333
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    518
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    843
+   ],
+   "api::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    71
+   ]
+  }
+ },
+ {
+  "time": 1792399974888,
+  "duration": 80941.83300000001,
+  "passed": 104,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 104,
+  "label": "local",
+  "tests": {
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    1140
+   ],
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    1172
+   ],
+   "chromium::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    915
+   ],
+   "chromium::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    1054
+   ],
+   "chromium::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    219
+   ],
+   "chromium::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    219
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    239
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    280
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    258
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    230
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    229
+   ],
+   "chromium::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    275
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    536
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    1029
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    1013
+   ],
+   "chromium::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1309
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    911
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    894
+   ],
+   "chromium::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1079
+   ],
+   "chromium::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    266
+   ],
+   "chromium::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    5095
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    4611
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    3446
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    983
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    2681
+   ],
+   "chromium::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    3094
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    522
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    359
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    382
+   ],
+   "chromium::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1145
+   ],
+   "chromium::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    25
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    6220
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    7661
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    7344
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    8436
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    7276
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    6873
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    6757
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    4131
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    4251
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    6074
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    5450
+   ],
+   "chromium::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    4998
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    2036
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    2387
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    3186
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    2718
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    1228
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    1585
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    1674
+   ],
+   "chromium::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    2488
+   ],
+   "chromium::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    7316
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for cart page launch": [
+    "p",
+    8428
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to get cart details": [
+    "p",
+    6417
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to remove product": [
+    "p",
+    7310
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to continue shopping and add new product into cart": [
+    "p",
+    8659
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test to validate checkout page launch": [
+    "p",
+    7167
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for validate checkout": [
+    "p",
+    7636
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for cancel Checkout process": [
+    "p",
+    7026
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for product count match": [
+    "p",
+    4464
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::To validate product details": [
+    "p",
+    5120
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to add product into cart": [
+    "p",
+    6368
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test for Total footers count validation": [
+    "p",
+    6030
+   ],
+   "ui::tests/inventorypagewithfixture.spec.ts::Test to get footer details": [
+    "p",
+    4542
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page url": [
+    "p",
+    998
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test to validate login page title": [
+    "p",
+    2570
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with valid credentials": [
+    "p",
+    4491
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for login functionality with invalid(both blank) credentials": [
+    "p",
+    1509
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 1": [
+    "p",
+    3186
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 2": [
+    "p",
+    2699
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 3": [
+    "p",
+    1876
+   ],
+   "ui::tests/loginpagetestwithfixture.spec.ts::Test for invalid login 4": [
+    "p",
+    2560
+   ],
+   "ui::tests/overviewpagewithfixturetest.spec.ts::Test for complete checkout process": [
+    "p",
+    6658
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    1102
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    1103
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    671
+   ],
+   "api::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    292
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    286
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    250
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    249
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    239
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    258
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    304
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    257
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    271
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    463
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    902
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    874
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1118
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    972
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    1008
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1278
+   ],
+   "api::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    385
+   ],
+   "api::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    4835
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    5483
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    4115
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    1625
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    3038
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    2864
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    434
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    435
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    457
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1057
+   ],
+   "api::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    23
+   ]
+  }
+ },
+ {
+  "time": 1792400196174,
+  "duration": 12657.457,
+  "passed": 31,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 31,
+  "label": "local",
+  "tests": {
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds": [
+    "p",
+    1362
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get all BookingIds with BaseUrl": [
+    "p",
+    1268
+   ],
+   "api::tests/api/TC01_GetRequest.spec.ts::GET request: Get request for Path and Query parameters": [
+    "p",
+    906
+   ],
+   "api::tests/api/TC02_PostRequest.spec.ts::POST Request: Create new resource with manual payload": [
+    "p",
+    906
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata": [
+    "p",
+    329
+   ],
+   "api::tests/api/TC03_PostRequestWithFile.spec.ts::POST Request: create new resource from Filedata Utility": [
+    "p",
+    309
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: create new booking": [
+    "p",
+    239
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › GET: Get newly added booking details": [
+    "p",
+    223
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › POST: Create new Token for update and delete request": [
+    "p",
+    240
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PUT: Test for Full update for current booking": [
+    "p",
+    285
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › PATCH: Update partial record": [
+    "p",
+    259
+   ],
+   "api::tests/api/TC04_SerialAPIChaining.spec.ts::This is suite for API chaining › DELETE: Delete partial record": [
+    "p",
+    287
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking details": [
+    "p",
+    458
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    1034
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    1024
+   ],
+   "api::tests/api/TC05_APIChaining.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1475
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Full update the booking": [
+    "p",
+    1045
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Partial update the booking": [
+    "p",
+    1040
+   ],
+   "api::tests/api/TC06_APIChainingWithHooks.spec.ts::Create new booking-->get the same booking-->Generate token-->Delete the booking": [
+    "p",
+    1252
+   ],
+   "api::tests/api/TC07_SchemaValidation.spec.ts::Test for RestBooker schema validation": [
+    "p",
+    275
+   ],
+   "api::tests/api/TC08_APIMockingIntercept.spec.ts::Test for API mocking and intercept": [
+    "p",
+    4546
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe multiple requests": [
+    "p",
+    5222
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API-Interception-observe single request": [
+    "p",
+    4967
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception - To block any API request": [
+    "p",
+    977
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API interception-mock the response": [
+    "p",
+    2969
+   ],
+   "api::tests/api/TC09_APIInterceptions.spec.ts::API Interception-Mocking the current response": [
+    "p",
+    2895
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for NoAuth Authentication algorithm": [
+    "p",
+    425
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for BasicAuth Authentication algorithm": [
+    "p",
+    337
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for APIKey": [
+    "p",
+    785
+   ],
+   "api::tests/api/TC10_APIAuthorizationAlgorithm.spec.ts::Test for Bearer token": [
+    "p",
+    1015
+   ],
+   "api::tests/api/TC11_OpenAuth.spec.ts::Open auth 2.0 test": [
+    "p",
+    67
+   ]
+  }
  }
 ]

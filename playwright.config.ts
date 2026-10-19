@@ -23,6 +23,7 @@ const result=dotenv.config({ path:`config/.env.${ENV}`});
  */
 export default defineConfig({
   testDir: './tests',
+  globalSetup: './global-setup.ts',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -35,7 +36,7 @@ export default defineConfig({
   reporter: [['html',{ 
       outputFolder: 'reports/html-report',
       open: 'never'
-    }],["allure-playwright"],['reporting-labs', reportingLabs]],
+    }],["allure-playwright"],['reporting-labs',reportingLabs]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
