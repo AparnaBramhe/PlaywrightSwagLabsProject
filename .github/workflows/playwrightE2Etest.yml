@@ -986,13 +986,13 @@ jobs:
 
       - name: Verify email configuration
         run: |
-         if [ -n "$STUDENT_EMAILS" ]; then
-            echo "✅ STUDENT_EMAILS is available"
+         if [ -n "$STUDENT_EMAIL" ]; then
+            echo "✅ STUDENT_EMAIL is available"
          else
-            echo "❌ STUDENT_EMAILS is missing"
+            echo "❌ STUDENT_EMAIL is missing"
          fi
         env:
-          STUDENT_EMAILS: ${{ secrets.STUDENT_EMAIL }}
+          STUDENT_EMAIL: ${{ secrets.STUDENT_EMAIL }}
           
       - name: Send Allure Report Email
         run: |
@@ -1001,7 +1001,7 @@ jobs:
           MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
           MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
           ALLURE_REPORT_URL: https://github.com/AparnaBramhe/PlaywrightSwagLabsProject/
-          STUDENT_EMAILS: ${{ secrets.STUDENT_EMAIL }}
+          STUDENT_EMAIL: ${{ secrets.STUDENT_EMAIL }}
 
 
   # ============================================================
