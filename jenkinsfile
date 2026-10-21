@@ -210,12 +210,12 @@ pipeline {
                             variable: 'MAIL_USERNAME'
                         ),
                         string(
-                            credentialsId: 'mail_password',
+                            credentialsId: 'mail_app_password',
                             variable: 'MAIL_APP_PASSWORD'
                         ),
                         string(
                             credentialsId: 'student_email',
-                            variable: 'STUDENT_EMAILS'
+                            variable: 'STUDENT_EMAIL'
                         )
                     ]) {
                         withEnv([
