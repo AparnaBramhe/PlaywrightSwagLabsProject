@@ -225,7 +225,7 @@ pipeline {
                             "BUILD_URL=${env.BUILD_URL}",
                             "ALLURE_REPORT_URL=${env.BUILD_URL}allure/"
                         ]) {
-                            nodejs('Node24') {
+                            nodejs('NodeJS26') {
                                 def emailExitCode = bat(
                                     script: 'npx tsx src/email/send-report-email.ts',
                                     returnStatus: true
