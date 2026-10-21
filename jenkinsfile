@@ -45,7 +45,7 @@ pipeline {
         // 3. INSTALL DEPENDENCIES
         stage('Install Dependencies') {
             steps {
-                nodejs('Node24') {
+                nodejs('NodeJS26') {
                     bat 'npm ci'
                 }
             }
@@ -54,7 +54,7 @@ pipeline {
         // 4. INSTALL PLAYWRIGHT
         stage('Install Playwright') {
             steps {
-                nodejs('Node24') {
+                nodejs('NodeJS26') {
                     bat 'npx playwright install chromium'
                 }
             }
@@ -71,7 +71,7 @@ pipeline {
                         variable: 'APP_URL'
                     )
                 ]) {
-                    nodejs('Node24') {
+                    nodejs('NodeJS26') {
                         bat '''
                             if not defined APP_URL (
                                 echo ERROR: APP_URL is missing
@@ -112,7 +112,7 @@ pipeline {
                         variable: 'ACCESSTOKEN'
                     )
                 ]) {
-                    nodejs('Node24') {
+                    nodejs('NodeJS26') {
                         bat """
                             set "ENV=${params.ENVIRONMENT.toLowerCase()}"
                             set "APPBASEURL=%APP_URL%"
@@ -131,7 +131,7 @@ pipeline {
         stage('Generate Allure Report')
         {
             steps {
-                nodejs('Node24') {
+                nodejs('NodeJS26') {
                     bat '''
                         if exist allure-results (
                             npx allure generate allure-results -o allure-report --clean
@@ -147,7 +147,7 @@ pipeline {
         // 8. CUSTOMIZE ALLURE REPORT
         stage('Customize Allure Report') {
             steps {
-                nodejs('Node24') {
+                nodejs('NodeJS26') {
                     bat '''
                         node src/allure/customize-allure-report.js
                     '''
@@ -214,7 +214,7 @@ pipeline {
                             variable: 'MAIL_APP_PASSWORD'
                         ),
                         string(
-                            credentialsId: 'student_emails',
+                            credentialsId: 'student_email',
                             variable: 'STUDENT_EMAILS'
                         )
                     ]) {
