@@ -96,11 +96,11 @@ pipeline {
                         variable: 'APP_URL'
                     ),
                     string(
-                        credentialsId: 'appusername',
+                        credentialsId: 'app_username',
                         variable: 'APPUSERNAME'
                     ),
                     string(
-                        credentialsId: 'apppassword',
+                        credentialsId: 'app_password',
                         variable: 'APPPASSWORD'
                     ),
                     string(
@@ -108,7 +108,7 @@ pipeline {
                         variable: 'API_URL'
                     ),
                     string(
-                        credentialsId: 'accesstoken',
+                        credentialsId: 'access_token',
                         variable: 'ACCESSTOKEN'
                     )
                 ]) {
