@@ -1,0 +1,77 @@
+Gerkins Keywords
+================
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@tag
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+
+
+Errorlog
+=============
+PS C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework> npx cucumber-js --dry-run --format summary    
+(node:15260) ExperimentalWarning: glob is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TypeError: Cannot read properties of undefined (reading 'fileExists')
+    at readConfig (C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework\node_modules\ts-node\dist\configuration.js:91:33)
+    at findAndReadConfig (C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework\node_modules\ts-node\dist\configuration.js:50:84)
+    at create (C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework\node_modules\ts-node\dist\index.js:146:69)
+    at Object.register (C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework\node_modules\ts-node\dist\index.js:127:19)
+    at Object.<anonymous> (C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework\node_modules\ts-node\register\index.js:1:16)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+PS C:\Users\piyun\OneDrive\Desktop\Trainings\PlaywrightBDDSA20263Framework> 
+
+you have toupgrade typescript and ts-node
+npm install --save-dev typescript@latest
+npx tsc --version
+npm install --save-dev ts-node@latest
+
+If still issue not resolve then downgrade version
+npm install --save-dev typescript@5.9.2
+====================================================
+
+step1: create scenario login.feature
+step2: create step defination
+npx cucumber-js --dry-run --format summary 
+
