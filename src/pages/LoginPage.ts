@@ -4,11 +4,12 @@ export class LoginPage
 {
     constructor(private page:Page){}
 
-    //locators object
+    //locators jsobject created
     private locators={
         username:"#user-name",
-        password:"password",
-        loginButton: "#login-button"
+        password:"#password",
+        loginButton: "#login-button",
+        errorMessgae: "h3[data-test='error']"
     }
 
     //methods
@@ -31,4 +32,21 @@ export class LoginPage
     {
         await this.page.locator(this.locators.loginButton).click();    
     }
+
+    async getPageUrl():Promise<string>
+    {
+        return this.page.url();
+    }
+
+    async getPageTitle():Promise<string>
+    {
+        return this.page.title();
+    }
+
+    async getErrorMessage()
+    {
+        return this.page.locator(this.locators.errorMessgae).innerText();
+    }
+
+    
 }
